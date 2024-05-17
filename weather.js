@@ -119,7 +119,7 @@ $('#wthrBtn').on('click', async function (event) {
 // this adds the city to the ul if it wanst there already
     if(!a){
         const item = `
-           <li> <button class="btn btn-primary past-search" id="${city}">${city}</button></li>
+           <li> <button class="btn btn-primary past-search m-1" id="${city}">${city}</button></li>
         `
     
         $('#searchList').prepend(item)
